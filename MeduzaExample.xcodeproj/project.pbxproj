@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C208A611A38F60600CDDAB8 /* back_button_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C208A601A38F60600CDDAB8 /* back_button_image.png */; };
+		3C208A631A39071B00CDDAB8 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C208A621A39071B00CDDAB8 /* AlbumCell.swift */; };
+		3C4299C31A3DE13B009A185F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4299C21A3DE13B009A185F /* GalleryViewController.swift */; };
+		3C515A1B1A37C57300FFFA40 /* InterfaceAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C515A1A1A37C57300FFFA40 /* InterfaceAssistant.swift */; };
+		3CD9EF701A3915B10007F044 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD9EF6F1A3915B10007F044 /* ImageCache.swift */; };
+		3CE3CF6F1A379FC500B2A361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3CF6E1A379FC500B2A361 /* AppDelegate.swift */; };
+		3CE3CF741A379FC500B2A361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF721A379FC500B2A361 /* Main.storyboard */; };
+		3CE3CF761A379FC500B2A361 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF751A379FC500B2A361 /* Images.xcassets */; };
+		3CE3CF791A379FC500B2A361 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF771A379FC500B2A361 /* LaunchScreen.xib */; };
+		3CE3CF851A379FC500B2A361 /* MeduzaExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3CF841A379FC500B2A361 /* MeduzaExampleTests.swift */; };
+		3CE3CF921A379FE700B2A361 /* close_button_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF8F1A379FE700B2A361 /* close_button_image.png */; };
+		3CE3CF931A379FE700B2A361 /* PFRegalTextPro-RegularB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF901A379FE700B2A361 /* PFRegalTextPro-RegularB.ttf */; };
+		3CE3CF941A379FE700B2A361 /* share_button_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3CF911A379FE700B2A361 /* share_button_image.png */; };
+		3CEADA091A388DCA002340CD /* AlbumSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEADA081A388DCA002340CD /* AlbumSelectionViewController.swift */; };
+		3CEADA0B1A388DD4002340CD /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEADA0A1A388DD4002340CD /* AlbumViewController.swift */; };
+		3CEADA0D1A388F29002340CD /* Circe.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CEADA0C1A388F29002340CD /* Circe.otf */; };
+		3CEADA461A389F4F002340CD /* AlbumSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEADA451A389F4F002340CD /* AlbumSelectionCell.swift */; };
+		3CFA44221A3886B200BDA3D5 /* ConnectionAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA44211A3886B200BDA3D5 /* ConnectionAssistant.swift */; };
+		3CFC78931A3AF21600123FCC /* GalleryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC78921A3AF21600123FCC /* GalleryImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CE3CF7F1A379FC500B2A361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE3CF611A379FC500B2A361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE3CF681A379FC500B2A361;
+			remoteInfo = MeduzaExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C208A601A38F60600CDDAB8 /* back_button_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button_image.png; sourceTree = "<group>"; };
+		3C208A621A39071B00CDDAB8 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlbumCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3C4299C21A3DE13B009A185F /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		3C515A1A1A37C57300FFFA40 /* InterfaceAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceAssistant.swift; sourceTree = "<group>"; };
+		3C64C7ED1A3A73000066E5BF /* MeduzaExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeduzaExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CD9EF6F1A3915B10007F044 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		3CE3CF691A379FC500B2A361 /* MeduzaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeduzaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE3CF6D1A379FC500B2A361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE3CF6E1A379FC500B2A361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CE3CF731A379FC500B2A361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE3CF751A379FC500B2A361 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CE3CF781A379FC500B2A361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CE3CF7E1A379FC500B2A361 /* MeduzaExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeduzaExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE3CF831A379FC500B2A361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE3CF841A379FC500B2A361 /* MeduzaExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeduzaExampleTests.swift; sourceTree = "<group>"; };
+		3CE3CF8F1A379FE700B2A361 /* close_button_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button_image.png; sourceTree = "<group>"; };
+		3CE3CF901A379FE700B2A361 /* PFRegalTextPro-RegularB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PFRegalTextPro-RegularB.ttf"; sourceTree = "<group>"; };
+		3CE3CF911A379FE700B2A361 /* share_button_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_button_image.png; sourceTree = "<group>"; };
+		3CEADA081A388DCA002340CD /* AlbumSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlbumSelectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3CEADA0A1A388DD4002340CD /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlbumViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3CEADA0C1A388F29002340CD /* Circe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Circe.otf; sourceTree = "<group>"; };
+		3CEADA451A389F4F002340CD /* AlbumSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AlbumSelectionCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3CFA44211A3886B200BDA3D5 /* ConnectionAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionAssistant.swift; sourceTree = "<group>"; };
+		3CFC78921A3AF21600123FCC /* GalleryImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE3CF661A379FC500B2A361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE3CF7B1A379FC500B2A361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE3CF601A379FC500B2A361 = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF6B1A379FC500B2A361 /* MeduzaExample */,
+				3CE3CF811A379FC500B2A361 /* MeduzaExampleTests */,
+				3CE3CF6A1A379FC500B2A361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE3CF6A1A379FC500B2A361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF691A379FC500B2A361 /* MeduzaExample.app */,
+				3CE3CF7E1A379FC500B2A361 /* MeduzaExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE3CF6B1A379FC500B2A361 /* MeduzaExample */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF8E1A379FE700B2A361 /* Resources */,
+				3CE3CF6E1A379FC500B2A361 /* AppDelegate.swift */,
+				3C515A1A1A37C57300FFFA40 /* InterfaceAssistant.swift */,
+				3CFA44211A3886B200BDA3D5 /* ConnectionAssistant.swift */,
+				3CD9EF6F1A3915B10007F044 /* ImageCache.swift */,
+				3CEADA081A388DCA002340CD /* AlbumSelectionViewController.swift */,
+				3CEADA451A389F4F002340CD /* AlbumSelectionCell.swift */,
+				3CEADA0A1A388DD4002340CD /* AlbumViewController.swift */,
+				3C208A621A39071B00CDDAB8 /* AlbumCell.swift */,
+				3CFC78921A3AF21600123FCC /* GalleryImageView.swift */,
+				3C4299C21A3DE13B009A185F /* GalleryViewController.swift */,
+				3CE3CF721A379FC500B2A361 /* Main.storyboard */,
+				3CE3CF751A379FC500B2A361 /* Images.xcassets */,
+				3CE3CF771A379FC500B2A361 /* LaunchScreen.xib */,
+				3CE3CF6C1A379FC500B2A361 /* Supporting Files */,
+				3C64C7ED1A3A73000066E5BF /* MeduzaExample-Bridging-Header.h */,
+			);
+			path = MeduzaExample;
+			sourceTree = "<group>";
+		};
+		3CE3CF6C1A379FC500B2A361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF6D1A379FC500B2A361 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CE3CF811A379FC500B2A361 /* MeduzaExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF841A379FC500B2A361 /* MeduzaExampleTests.swift */,
+				3CE3CF821A379FC500B2A361 /* Supporting Files */,
+			);
+			path = MeduzaExampleTests;
+			sourceTree = "<group>";
+		};
+		3CE3CF821A379FC500B2A361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF831A379FC500B2A361 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CE3CF8E1A379FE700B2A361 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CE3CF8F1A379FE700B2A361 /* close_button_image.png */,
+				3CE3CF901A379FE700B2A361 /* PFRegalTextPro-RegularB.ttf */,
+				3CE3CF911A379FE700B2A361 /* share_button_image.png */,
+				3CEADA0C1A388F29002340CD /* Circe.otf */,
+				3C208A601A38F60600CDDAB8 /* back_button_image.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE3CF681A379FC500B2A361 /* MeduzaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE3CF881A379FC500B2A361 /* Build configuration list for PBXNativeTarget "MeduzaExample" */;
+			buildPhases = (
+				3CE3CF651A379FC500B2A361 /* Sources */,
+				3CE3CF661A379FC500B2A361 /* Frameworks */,
+				3CE3CF671A379FC500B2A361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeduzaExample;
+			productName = MeduzaExample;
+			productReference = 3CE3CF691A379FC500B2A361 /* MeduzaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CE3CF7D1A379FC500B2A361 /* MeduzaExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE3CF8B1A379FC500B2A361 /* Build configuration list for PBXNativeTarget "MeduzaExampleTests" */;
+			buildPhases = (
+				3CE3CF7A1A379FC500B2A361 /* Sources */,
+				3CE3CF7B1A379FC500B2A361 /* Frameworks */,
+				3CE3CF7C1A379FC500B2A361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE3CF801A379FC500B2A361 /* PBXTargetDependency */,
+			);
+			name = MeduzaExampleTests;
+			productName = MeduzaExampleTests;
+			productReference = 3CE3CF7E1A379FC500B2A361 /* MeduzaExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE3CF611A379FC500B2A361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Max Rovnov";
+				TargetAttributes = {
+					3CE3CF681A379FC500B2A361 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3CE3CF7D1A379FC500B2A361 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3CE3CF681A379FC500B2A361;
+					};
+				};
+			};
+			buildConfigurationList = 3CE3CF641A379FC500B2A361 /* Build configuration list for PBXProject "MeduzaExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE3CF601A379FC500B2A361;
+			productRefGroup = 3CE3CF6A1A379FC500B2A361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE3CF681A379FC500B2A361 /* MeduzaExample */,
+				3CE3CF7D1A379FC500B2A361 /* MeduzaExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE3CF671A379FC500B2A361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE3CF921A379FE700B2A361 /* close_button_image.png in Resources */,
+				3CE3CF741A379FC500B2A361 /* Main.storyboard in Resources */,
+				3CEADA0D1A388F29002340CD /* Circe.otf in Resources */,
+				3CE3CF931A379FE700B2A361 /* PFRegalTextPro-RegularB.ttf in Resources */,
+				3CE3CF941A379FE700B2A361 /* share_button_image.png in Resources */,
+				3CE3CF791A379FC500B2A361 /* LaunchScreen.xib in Resources */,
+				3C208A611A38F60600CDDAB8 /* back_button_image.png in Resources */,
+				3CE3CF761A379FC500B2A361 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE3CF7C1A379FC500B2A361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE3CF651A379FC500B2A361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C515A1B1A37C57300FFFA40 /* InterfaceAssistant.swift in Sources */,
+				3CEADA0B1A388DD4002340CD /* AlbumViewController.swift in Sources */,
+				3CD9EF701A3915B10007F044 /* ImageCache.swift in Sources */,
+				3CEADA461A389F4F002340CD /* AlbumSelectionCell.swift in Sources */,
+				3C4299C31A3DE13B009A185F /* GalleryViewController.swift in Sources */,
+				3C208A631A39071B00CDDAB8 /* AlbumCell.swift in Sources */,
+				3CFA44221A3886B200BDA3D5 /* ConnectionAssistant.swift in Sources */,
+				3CFC78931A3AF21600123FCC /* GalleryImageView.swift in Sources */,
+				3CE3CF6F1A379FC500B2A361 /* AppDelegate.swift in Sources */,
+				3CEADA091A388DCA002340CD /* AlbumSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE3CF7A1A379FC500B2A361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE3CF851A379FC500B2A361 /* MeduzaExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CE3CF801A379FC500B2A361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE3CF681A379FC500B2A361 /* MeduzaExample */;
+			targetProxy = 3CE3CF7F1A379FC500B2A361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CE3CF721A379FC500B2A361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE3CF731A379FC500B2A361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CE3CF771A379FC500B2A361 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE3CF781A379FC500B2A361 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE3CF861A379FC500B2A361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE3CF871A379FC500B2A361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE3CF891A379FC500B2A361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MeduzaExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeduzaExample/MeduzaExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE3CF8A1A379FC500B2A361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MeduzaExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeduzaExample/MeduzaExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3CE3CF8C1A379FC500B2A361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeduzaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeduzaExample.app/MeduzaExample";
+			};
+			name = Debug;
+		};
+		3CE3CF8D1A379FC500B2A361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeduzaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeduzaExample.app/MeduzaExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE3CF641A379FC500B2A361 /* Build configuration list for PBXProject "MeduzaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE3CF861A379FC500B2A361 /* Debug */,
+				3CE3CF871A379FC500B2A361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE3CF881A379FC500B2A361 /* Build configuration list for PBXNativeTarget "MeduzaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE3CF891A379FC500B2A361 /* Debug */,
+				3CE3CF8A1A379FC500B2A361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE3CF8B1A379FC500B2A361 /* Build configuration list for PBXNativeTarget "MeduzaExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE3CF8C1A379FC500B2A361 /* Debug */,
+				3CE3CF8D1A379FC500B2A361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE3CF611A379FC500B2A361 /* Project object */;
+}

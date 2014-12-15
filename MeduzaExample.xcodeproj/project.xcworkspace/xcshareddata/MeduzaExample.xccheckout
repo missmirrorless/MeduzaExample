@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3C8B1990-358E-4FA0-AD0D-AC9EFF9BB46C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MeduzaExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCFF8489FBAD6524BBF9F0E43EA93BAFEB8FD0B8</key>
+		<string>bitbucket.org:maksr/meduza-example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MeduzaExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCFF8489FBAD6524BBF9F0E43EA93BAFEB8FD0B8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:maksr/meduza-example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCFF8489FBAD6524BBF9F0E43EA93BAFEB8FD0B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCFF8489FBAD6524BBF9F0E43EA93BAFEB8FD0B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MeduzaExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
